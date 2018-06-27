@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Split up </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+		<link rel="icon" href="splitUpLogo.png">
+		<link rel="stylesheet" type="text/css" href="finalStyles.css">
+		
+	</head>
+	<body>
+		<!-- logo design  -->
+		
+		<!-- <div id ="header"> </div> -->
+		<div class="main"><img src="splitUpLogo.png" alt="logo" id="logo">
+			<a href="#"><h1>Welcome To Split Up</h1></a>
+			
+		</div>
+		<!-- inputs -->
+	<div id="navbar" align="center">
+		<h3>Total is fixed</h3>
+			<input id="AmmountDue" type="number" placeholder="Total w/Tip Optional">
+			</div>
+	<div id ="navbar2" align="center">
+		<h3>Enter Guest one at a time with percetange </h3>
+			<div id ="inputs" >
+					<input id ="friends" type="text" placeholder="Friend Name">
+					<input id="percentage" type="number" placeholder="Percentage">
+					<!-- buttons -->
+					
+		</div>
+		<div id="buttons" align="center">
+					<input id="splitit" onclick="saveData()" type="button" value="Split Up">
+					<input id = "reset" onclick="history.go(0)" type="button" value="Clear">
+					</div>
+	</div>
+			
+				
+		<!--ammount due list-->
+		<div id ="displaybg">
+			<ul id ="display" ></ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<script src="script.js"></script>
+	</body>
+</html>
